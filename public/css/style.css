@@ -1,0 +1,54 @@
+.custom-nav {
+    margin-bottom: 50px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.domain-card {
+    background: #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+}
+a, a:hover, a:active{
+    text-decoration: none;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.main-list {
+    font-size: medium;
+}

@@ -1,0 +1,6 @@
+/.idea
+*.log
+/vendor
+/scripts/bash/dead.letter
+/scripts/bash/test.sh
+/scripts/bash/tmp
