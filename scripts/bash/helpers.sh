@@ -5,7 +5,7 @@ get_date_by_format(){
 }
 
 get_expiry_date(){
-    echo $(cat ${SCRIPTS_PATH}/info/$1.txt | grep -o -P "expire-date.{0,30}|Expiry Date.{0,30}|Expiration Date.{0,30}" | cut -f2- -d:)
+    echo $(cat ${SCRIPTS_PATH}/info/$1.txt | grep -m 1 -o -P "expire-date.{0,30}|Expiry Date.{0,30}|Expiration Date.{0,30}" | cut -f2- -d:)
 }
 
 get_weeks_remaining(){
