@@ -23,6 +23,7 @@ scripts/bash/start.sh
 ```
 
 * Config smtp server
+
 To send email notification add config files to scripts/certs
 
 
