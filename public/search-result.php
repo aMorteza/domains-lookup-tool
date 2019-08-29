@@ -51,19 +51,8 @@ if (isset($_SESSION['found']) and isset($_SESSION['info'])) {
             <?php }
             ?>
             <!-- Card 5 -->
-            <?php if (boolval(strpos($info["nameServer"]," ")) != 0)
-            { ?>
-                <div class="card">
-                    <div class="card-header"><?php echo $info["nameServer"]?></div>
-                    <div class="card-block">
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            <?php }
-            ?>
-            <!-- Card 6 -->
             <?php if (boolval(strpos($info["registrar"]," ")) != 0)
-                { ?>
+            { ?>
                 <div class="card">
                     <div class="card-header"><?php echo $info["registrar"]?></div>
                     <div class="card-block">
@@ -72,11 +61,22 @@ if (isset($_SESSION['found']) and isset($_SESSION['info'])) {
                 </div>
             <?php }
             ?>
-            <!-- Card 7 -->
+            <!-- Card 6 -->
             <?php if (boolval(strpos($info["registrarUrl"]," ")) != 0)
             { ?>
                 <div class="card">
                     <div class="card-header"><?php echo $info["registrarUrl"]?></div>
+                    <div class="card-block">
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            <?php }
+            ?>
+            <!-- Card 7 -->
+            <?php if (boolval(strpos($info["nameServer"]," ")) != 0)
+            { ?>
+                <div class="card">
+                    <div class="card-header"><?php echo $info["nameServer"]?></div>
                     <div class="card-block">
                         <p class="card-text"></p>
                     </div>
