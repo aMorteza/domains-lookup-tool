@@ -14,7 +14,7 @@ A domain expiry checker and data analytics based on
 $ sudo apt install whois	#Debian/Ubuntu
 ```
 
-###Set cronJob
+####Set cronJob
 ```
 crontab -e
 Add cronjob for 
@@ -22,7 +22,7 @@ scripts/bash/start.sh
 
 ```
 
-###Config smtp
+####Config smtp server
 To send email notification add config files to scripts/certs
 
 
