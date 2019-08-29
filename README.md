@@ -6,9 +6,9 @@ A domain expiry checker and data analytics based on
 
  panel developed using php56.*, bootstrap4 and bash scripts on redhat Linux OS (fedora27 in local and centos 7.5 on server) 
  
-![panel](https://github.com/Amorteza1376/domains-lookup-tool/tree/master/public/img/home.png)
+![panel](public/img/home.png)
 
-![panel](https://github.com/Amorteza1376/domains-lookup-tool/tree/master/public/img/detail.png)
+![panel](public/img/detail.png)
 
 
 Installation
