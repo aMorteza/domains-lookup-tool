@@ -191,7 +191,8 @@ done;
 
 if [[ ! -z ${alerting_domains+x} ]];then
 
-    send_notifications_for_them_all "${alerting_domains[@]}"
+    #TODO: send notification per user.
+    #send_notifications_for_them_all "${alerting_domains[@]}"
 
     if [[ $? -eq 0 ]]; then
         echo "At $(date -d now) : notification sent."
