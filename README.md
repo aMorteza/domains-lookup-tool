@@ -6,7 +6,7 @@ A domain expiry checker and data analytics based on
 
  panel developed using php56.*, bootstrap4 and bash scripts on redhat Linux OS (fedora27 in local and centos 7.5 on server) 
 
-####Install whois:
+* Install whois:
 
 ```
 # yum install whois		#RHEL/CentOS
@@ -14,7 +14,7 @@ A domain expiry checker and data analytics based on
 $ sudo apt install whois	#Debian/Ubuntu
 ```
 
-####Set cronJob
+* Set cronJob
 ```
 crontab -e
 Add cronjob for 
@@ -22,7 +22,7 @@ scripts/bash/start.sh
 
 ```
 
-####Config smtp server
+* Config smtp server
 To send email notification add config files to scripts/certs
 
 
